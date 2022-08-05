@@ -1,0 +1,48 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+Variables: son espacios que guardamos en memoria para usarlos más adelante. A estos espacios les ponemos un nombre con el 
+cual nos sea fácil relacionarlos y a su vez también podemos asignarle un valor. Por ejemplo, una forma con la que 
+podríamos declarar una variable en javascript seria:
+
+var VasoDeAgua = 'Agua';
+
+Y listo, así de sencillo hemos creado una variable llamada VasoDeAgua que contiene el valor "Agua" dentro de ella.
+
+Strings: los strings son cadenas de texto, cualquier cosa que escribamos o que se encuentre entre comillas, se convertirá 
+automáticamente en un tipo de dato string.
+
+Funciones: Las funciones son bloques de código que creamos, los cuales luego podemos "llamar", para que realicen algo.
+
+function sumar(a, b) {
+	var suma = a + b;
+	return suma;
+}
+
+Por ejemplo, aquí declaramos una función usando una de las formas existentes para construir funciones en javascript para 
+que realice la tarea de sumar dos datos. Estos datos que se le brindan a la función son conocidos como argumentos y pueden 
+ser de cualquier tipo. Por último, la declaración "Return" será la encargada de devolver la suma de ambos datos al usuario.
+
+Declaraciones: las declaraciones son construcciones sintácticas de comandos para hacer acciones, por ejemplo:
+
+console.log(Hola mundo!);
+
+Estas declaraciones suelen separarse unas de otras a través de un ";". Existen tipos de declaraciones como las 
+declaraciones condicionales, por ejemplo:
+
+if(Condicion) {
+	//Código a ejecutar si la condición es verdadera
+}
+Else {
+	//Código a ejecutar si la condición es falsa
+}
+
+La declaración if es la condición más simple para tomar decisiones. 
+
+Valores booleanos: los valores booleanos, al igual que los strings o los numbers, son un tipo de dato, pero con la 
+particularidad de que solo pueden ser de dos valores: true o false.
