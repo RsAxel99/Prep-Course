@@ -1,0 +1,11 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+for: es una de las expresiones de bucle que vienen incorporadas en javascript, y sirve para repetir una o más instrucciones 
+hasta que se cumpla una condición establecida previamente. Se suele utilizar cuando se sabe con certeza el número de veces 
+que queremos que se ejecute.
+
+`&&`, `||`, `!`: Son operadores lógicos con los cuales podemos usar para comparar expresiones y preguntarles si una es 
+verdadera, si ambas son verdaderas o si ninguna de ellas es verdadera.
