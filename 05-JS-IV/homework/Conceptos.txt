@@ -1,0 +1,24 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+Objetos: los objetos son variables que creamos con diferentes propiedades adentro.
+
+Propiedades: las propiedades son las características del objeto. Un objeto puede tener varias propiedades y cada propiedad 
+puede tener asignado un valor que puede ser de cualquier tipo (string, numérico, booleano, un array, una función, etc).
+
+Métodos: Los métodos no son más que funciones guardadas dentro de un objeto a modo de propiedad.
+
+Bucle `for…in`: el bucle "for in" lo usamos para recorrer objetos, declarando una variable que se encargue de ir 
+recorriendo uno a uno las claves (propiedades) del objeto.
+
+Notación de puntos vs notación de corchetes: Con la notacion de corchetes (bracket notation) podemos acceder al valor de 
+una propiedad escribiendo el objeto y a continuación el nombre de la propiedad a la que se busca acceder entre comillas 
+(ej: alumno["nombre"]) igual podemos hacer esto con la notacion de puntos (dot notation) y es más simple, solo escribiendo 
+un punto entre la propiedad y el objeto (ej:alumno.nombre). La desventaja del dot notation es que es muy literal, debemos 
+escribir tal cual el nombre de la propiedad que estamos buscando, en cambio, con el bracket notation tenemos la posibilidad 
+de acceder al valor desde una variable.
