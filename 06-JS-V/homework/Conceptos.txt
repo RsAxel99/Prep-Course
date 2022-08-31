@@ -1,0 +1,16 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+`prototype`: Todos los objetos en javascript tienen una propiedad especial llamada prototype que es una referencia a otro 
+objeto. Con esto en mente, al momento de crear cualquier objeto en javaScript y llamar una propiedad, un método, o lo que 
+fuere, que no se encuentre definido dentro del objeto, javascript tratará de encontrarla en el prototype de este objeto, 
+o en el prototipo del prototipo, y así sucesivamente hasta que la encuentre o llegue al final de la cadena de prototipo 
+(Así es como podemos usar métodos como el .lenght sin que este se encuentre definido). Esta cadena de prototipo nos permite 
+simular herencia (recordemos que en JavaScript no existe la herencia basada en clases), si queremos agregar métodos o 
+propiedades a un objeto podemos hacerlo mediante el prototype. Por último, es importante notar que hay una propiedad no 
+estándar para obtener el prototipo de un objeto llamada __proto__, sin embargo, su uso debe ser evitado.
+
+_Constructors_ (de Clases): El constructor es un metodo especial para crear e inicializar un objeto creado a partir de una 
+clase. Es util para crear muchos objetos que comparten algunas de las mismas propiedades y métodos.
